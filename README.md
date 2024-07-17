@@ -33,9 +33,9 @@ Program służy do automatycznej weryfikacji użytkowników dołączających na 
 
 - **Automatyczna weryfikacja**: Bot automatycznie przeprowadza nowych użytkowników przez proces weryfikacji.
 - **Powiadomienia**: Bot informuje użytkowników o wyniku weryfikacji.
-- **Komendy globalne**: Administrator ma możliwość jednym poleceniem wysłać przypomnienie o konieczności weryfikacji do wszystkich niezweryfikowanych użytkowników na serwerze
+- **Komendy globalne**: Administrator ma możliwość jednym poleceniem wysłać wiadomość do dużej grupy użytkowników jednocześnie, np. przypomnienie o konieczności weryfikacji wszystkich niezweryfikowanych użytkowników na serwerze
 - **Automatyczna obsługa ticketów**: W momencie stworzenia ticketu przez użytkownika, bot sprawdza, czy jest on zweryfikowany. Na tej podstawie wysyła odpowiednią wiadomość.
-- **Interakcje z użytkownikami na serwerze**: Bot posiada możliwość interakcji i użytkownikami na serwerze, np. poprzez wysłanie jednej z predefiniowanych wiadomości gdy wykryje, że ktoś wysłał wiadomość ze słowem "piwo" bądź jego synonimem.
+- **Interakcje z użytkownikami na serwerze**: Bot posiada możliwość interakcji z użytkownikami na serwerze, np. poprzez wysłanie jednej z predefiniowanych wiadomości gdy wykryje, że ktoś wysłał wiadomość ze słowem "piwo" bądź jego synonimamy i różnymi formami fleksyjnymi.
 
 ## Autorzy
 
@@ -45,6 +45,7 @@ Autorzy: ximi36, kryreneus
 - **Integracja z ChatemGPT**
 - **Możliwość konfiguracji bota z poziomu pliku konfiguracyjnego, a nie kodu**
 - **Łoptymalizacja w wekselu**
+- **Inne bajery i cuda na kiju**
 
 
-***Prace nad botem wciąż trwają, prosimy o cierpliwość. Ewentualne uwagi można kierować na adres mailowy spam@ximix.pl bądź spam@kryreneus.pl***
+***Prace nad botem wciąż trwają, prosimy o cierpliwość. Ewentualne uwagi można kierować na adres mailowy contact@ximix.pl bądź contact@kryreneus.pl***
