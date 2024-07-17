@@ -37,15 +37,17 @@ Program służy do automatycznej weryfikacji użytkowników dołączających na 
 - **Automatyczna obsługa ticketów**: W momencie stworzenia ticketu przez użytkownika, bot sprawdza, czy jest on zweryfikowany. Na tej podstawie wysyła odpowiednią wiadomość.
 - **Interakcje z użytkownikami na serwerze**: Bot posiada możliwość interakcji z użytkownikami na serwerze, np. poprzez wysłanie jednej z predefiniowanych wiadomości gdy wykryje, że ktoś wysłał wiadomość ze słowem "piwo" bądź jego synonimamy i różnymi formami fleksyjnymi.
 
-## Autorzy
-
-Autorzy: ximi36, kryreneus
 
 ## W przyszłości
 - **Integracja z ChatemGPT**
 - **Możliwość konfiguracji bota z poziomu pliku konfiguracyjnego, a nie kodu**
 - **Łoptymalizacja w wekselu**
 - **Inne bajery i cuda na kiju**
+
+
+## Autorzy
+
+Autorzy: ximi36, kryreneus
 
 
 ***Prace nad botem wciąż trwają, prosimy o cierpliwość. Ewentualne uwagi można kierować na adres mailowy contact@ximix.pl bądź contact@kryreneus.pl***
