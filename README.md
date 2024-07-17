@@ -23,10 +23,10 @@ Program służy do automatycznej weryfikacji użytkowników dołączających na 
 2. Skonfiguruj bota, tworząc aplikację w [Discord Developer Portal](https://discord.com/developers/applications).
 3. Skopiuj token bota i dodaj go do pliku .env programu.
 4. Utwórz plik .env z następującymi wartościami:
-     CONSUMER_KEY (klucz uzyskany z usosa, instrukcja generowania znajduje się po linkiem https://apps.usos.edu.pl/developers/api/authorization/), 
-     CONSUMER_SECRET (secret uzyskany z usosa),
-     TOKEN (token bota),
-     SERVER_ID (id serwera discord)
+5.      CONSUMER_KEY (klucz uzyskany z usosa, instrukcja generowania znajduje się po linkiem https://apps.usos.edu.pl/developers/api/authorization/),
+6.      ONSUMER_SECRET (secret uzyskany z usosa),
+7.      TOKEN (token bota),
+8.      SERVER_ID (id serwera discord)
 
 ## Funkcjonalności
 
