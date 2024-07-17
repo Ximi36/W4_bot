@@ -1,7 +1,7 @@
 # Bot W4 do weryfikacji użytkowników na serwerze Discord
 
 ## Opis
-Program służy do automatycznej weryfikacji użytkowników dołączających na serwer Discord. Umożliwia administratorom serwera łatwe i skuteczne zarządzanie nowymi członkami, zapewniając, że tylko zweryfikowane osoby mogą uzyskać pełny dostęp do serwera.
+Program służy do automatycznej weryfikacji użytkowników dołączających na serwer Discord. Umożliwia administratorom serwera łatwe i skuteczne zarządzanie nowymi członkami, zapewniając, że tylko zweryfikowane osoby mogą uzyskać pełny dostęp do serwera. Kompatybilny z sytemem USOS.
 
 ## Instrukcja
 1. Uruchom program i skonfiguruj bota na swoim serwerze Discord.
@@ -14,6 +14,8 @@ Program służy do automatycznej weryfikacji użytkowników dołączających na 
 ## Wymagania
 - Python 3.x
 - Biblioteka `discord.py`
+- Biblioteka `urllib`
+- Biblioteka `requests_oauthlib`
 - Konto Discord z uprawnieniami administracyjnymi na serwerze
 
 ## Konfiguracja
@@ -25,8 +27,18 @@ Program służy do automatycznej weryfikacji użytkowników dołączających na 
 
 - **Automatyczna weryfikacja**: Bot automatycznie przeprowadza nowych użytkowników przez proces weryfikacji.
 - **Powiadomienia**: Bot informuje użytkowników o wyniku weryfikacji.
-- **Komendy globalne**: Administrator ma możliwość jednym poleceniem wysłać przypomnienie o konieczności weryfikacji do wszystkich niezweryfikowanych użytkowników na serwerze 
+- **Komendy globalne**: Administrator ma możliwość jednym poleceniem wysłać przypomnienie o konieczności weryfikacji do wszystkich niezweryfikowanych użytkowników na serwerze
+- **Automatyczna obsługa ticketów**: W momencie stworzenia ticketu przez użytkownika, bot sprawdza, czy jest on zweryfikowany. Na tej podstawie wysyła odpowiednią wiadomość.
+- **Interakcje z użytkownikami na serwerze**: Bot posiada możliwość interakcji i użytkownikami na serwerze, np. poprzez wysłanie jednej z predefiniowanych wiadomości gdy wykryje, że ktoś wysłał wiadomość ze słowem "piwo" bądź jego synonimem.
 
-## Autor
+## Autorzy
 
-Autor: ximi36, kryreneus
+Autorzy: ximi36, kryreneus
+
+## W przyszłości
+- **Integracja z ChatemGPT**
+- **Możliwość konfiguracji bota z poziomu pliku konfiguracyjnego, a nie kodu**
+- **Łoptymalizacja w wekselu**
+
+
+***Prace nad botem wciąż trwają, prosimy o cierpliwość. Ewentualne uwagi można kierować na adres mailowy spam@ximix.pl bądź spam@kryreneus.pl***
